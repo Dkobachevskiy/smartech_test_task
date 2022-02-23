@@ -1,0 +1,4 @@
+atomicwrites==1.4.0
+pytest==6.2.5
+pytest-rerunfailures==10.2
+selenium==3.14.0
