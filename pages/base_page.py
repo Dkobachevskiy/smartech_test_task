@@ -22,7 +22,7 @@ class BasePage():
         )
         lenght = len(search_value.get_attribute('value'))
         if lenght > 0:
-            search_value.send_keys(lenght * Keys.DELETE)
+            search_value.clear()
         search_value.send_keys(request)
 
     def is_element_present(self, element, url):                                 #метод проверяет наличие элемента на странице
